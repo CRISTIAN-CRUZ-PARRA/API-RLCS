@@ -1,0 +1,29 @@
+{
+  "players": [
+    {
+      "Tournament": "Serenyx League - Monthly $100 1v1 Gauntlet #5",
+      "ParticipantId": 18414162,
+      "GamerTag": "_Diogo",
+      "Prefix": "",
+      "Verified": true,
+      "ConnectedAccounts": {
+        "epicGamesAccount": {
+          "value": "Diogo_rl20",
+          "epicAccountId": "bb04f983497c48ac8e5e8d4a2c46c370"
+        }
+      },
+      "PlayerId": 3250973,
+      "PlayerGamerTag": "_Diogo",
+      "Seed": 1,
+      "Team": "_Diogo",
+      "UserId": 2088107,
+      "UserName": null,
+      "Country": "Chile",
+      "City": "Curicó",
+      "discord_username": "diegol_10",
+      "xbox_username": "",
+      "twitch_username": "mrdiogo14",
+      "twitter_username": ""
+    }
+  ]
+}
