@@ -14,8 +14,13 @@ server.get('/players/search', (req, res) => {
   const db = router.db; // lowdb instance
   let players = db.get('players').value();
 
+  // Si no se pasa ningún parámetro, devolver array vacío
+  if (!name && !epicAccountId && !country) {
+    return res.json([]);
+  }
+
   if (name) {
-    players = players.filter(player => player.GamerTag.toLowerCase().includes(name.toLowerCase()));
+    players = players.filter(player => player.GamerTag && player.GamerTag.toLowerCase().includes(name.toLowerCase()));
   }
   if (epicAccountId) {
     players = players.filter(player =>
